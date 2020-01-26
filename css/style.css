@@ -23,6 +23,22 @@ p {
   color:rgb(204, 0, 204);
 }
 
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link2 {
+  color: #444444;
+  text-decoration: none;
+}
+
+.link:hover{
+  background: rgb(204, 0, 204);
+}
+.link2:hover{
+  background: rgb(204, 0, 204);
+}
 .l-heaing{
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -72,6 +88,7 @@ p {
   padding: 0.5rem 0 ;
   border-bottom: #444444 dotted 1px;
 }
+
 .btn {
   display: inline-block;
   color: #ffffff;
@@ -128,8 +145,8 @@ p {
   margin: 0 0.25rem;
 }
 
-#navbar ul li a :hover{
-  background:rgb(204, 0, 204)  ;
+#navbar ul li a:hover{
+  background:rgb(204, 0, 204);
   border-radius: 5px;
 }
 
@@ -187,7 +204,7 @@ p {
 }
 
 #who .who-img{
-  background: url(../img/raphael-lovaski-pxax5WuM7eY-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/gamubw.png) no-repeat center center/cover;
 }
 /*Clients*/
 
@@ -198,28 +215,86 @@ p {
 #clients .items img {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 75%;
 }
 
-/*section contact*/
-#contact{
+/*Testimonials*/
+#testimonials {
+display: flex;
+height: 100%;
+background:url('../img/testimony.png') no-repeat 
+center center/cover;
+padding-top: 2rem;
+background-color: rgba(0,0,0,0.4)
+}
+#testimonials .testimonial{
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+#testimonials h2 {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial img {
+  width:75px ;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Section: Contact */
+#contact {
   display: flex;
 }
 
-#contact .map,#contact .contact-form{
-  flex: 1;
+#contact .map, #contact .contact-form {
+ flex: 1;
 }
 
-#contact .contact-form .form-group{
+#contact .contact-form .form-group {
   margin: 0.75rem;
+  
 }
 
-#contact .contact-form label{
+#contact .contact-form label {
   display: block;
+  margin-bottom: 5px;
 }
 
 #contact .contact-form input,
 #contact .contact-form textarea {
   width: 100%;
   padding: 0.5rem;
+  border:1px rgb(204, 0, 204) ;
+}
+/*social media*/
+
+.fa-facebook-f{
+  background: rgb(204, 0, 204);
+  color: #ffffff;
+}
+.fa-instagram{
+  background: rgb(204, 0, 204);
+  color: #ffffff;
+}
+.fa-envelope{
+  background: rgb(204, 0, 204);
+  color: #ffffff;
+}
+
+/*section portfolio*/
+#portfolio .items{
+  display: flex;
+  padding: 1rem;
+}
+
+#portfolio .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
 }
