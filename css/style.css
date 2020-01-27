@@ -257,12 +257,11 @@ background-color: rgba(0,0,0,0.4)
 }
 
 #contact .contact-form .form-group {
-  margin: 0.75rem;
-  
+  margin: 0.75rem; 
 }
 
 #contact .contact-form label {
-  display: block;
+  display:block;
 }
 
 #contact .contact-form input,
