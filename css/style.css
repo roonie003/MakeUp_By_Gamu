@@ -297,15 +297,56 @@ background-color: rgba(0,0,0,0.4)
   padding: 1rem;
 }
 
+/*section weddings*/
+#weddings .items{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.item{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 200px;
+  }
+
 /*section commercial*/
 #commercial .items{
   display: flex;
-  padding: 1rem;
   justify-content: space-evenly;
+  align-items: baseline;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
 }
 
-#commercial .item{
-  flex-basis: px;
-  padding: 1rem;
-  text-align: center;
+.item{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 200px;
+  }
+
+  /*section weddings*/
+#photoshoots .items{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
 }
+
+.item{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 200px;
+  }
