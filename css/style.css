@@ -250,10 +250,12 @@ background-color: rgba(0,0,0,0.4)
 /* Section: Contact */
 #contact {
   display: flex;
+
 }
 
-#contact .map, #contact .contact-form {
+#contact .gmap, #contact .contact-form {
  flex: 1;
+ flex-basis: 50%;
 }
 
 #contact .contact-form .form-group {
@@ -267,9 +269,10 @@ background-color: rgba(0,0,0,0.4)
 #contact .contact-form input,
 #contact .contact-form textarea {
   width: 100%;
-  padding: 0.5rem;
-  
+  padding: 0.5rem;  
 }
+
+
 /*social media*/
 
 .fa-facebook-f{
